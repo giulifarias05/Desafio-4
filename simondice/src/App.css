@@ -1,3 +1,7 @@
+body {
+  background-color: #000 !important; 
+}
+
 .navbar {
   background-color: black; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
@@ -8,18 +12,62 @@
   
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
+  background-color: rgb(17, 17, 17);
   color: white;
   text-align: center;
   padding: 15px 0;
 }
-
 @media (max-width: 768px) {
   .footer {
     font-size: 14px;
+  }
+}
+
+.ruleta-buttons {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 20px;
+  height: 100vh; 
+}
+
+.neon-button {
+  background-color: #000;
+  color: #fff;
+  border:#fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #fff, 0 0 15px #fff, 0 0 15px #fff, 0 0 15px #fff;
+  animation: neon 1.5s infinite ease-in-out alternate;
+  margin: 20px;
+  width: 130px;
+  height: 60px;
+}
+
+.color {
+  background-color: #d61515;
+}
+
+.color2 {
+  background-color: #0e5ae9;
+}
+
+.color3 {
+  background-color: #fae316;
+}
+
+@keyframes neon {
+  to {
+    box-shadow: 0 0 15px #f8f6f6, 0 0 15px #0e0d0d, 0 0 15px #ffffff, 0 0 15px #ffffff;
   }
 }
