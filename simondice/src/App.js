@@ -7,16 +7,14 @@ import Ruleta from './Components/ruleta';
 
 function App() {
   return (
-  
-
-<div className="app">
-<div className="content">
-<Navbar />
-    
-      <Ruleta />
-</div>
-<footer className="footer">
-<Footer /></footer>
+      <div className="app">
+      <div className="content">
+        <Navbar />
+        <Ruleta />
+    </div>
+      <footer className="footer">
+        <Footer />
+      </footer>
 </div>
   );
 }
