@@ -6,13 +6,18 @@ body {
   background-color: black; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
   color: beige;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 }
 .navbar a {
   color: white;
   
 }
 
+.customModalTitle {
+  font-family:Georgia, 'Times New Roman', Times, serif; /* Cambia la tipografía a Arial */
+  font-size: 24px; /* Ajusta el tamaño del texto a 24px */
+  /* Puedes agregar otros estilos según sea necesario */
+}
 
 .app {
   min-height: 100%;
