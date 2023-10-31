@@ -6,19 +6,27 @@ body {
   background-color: black; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
   color: beige;
+  margin-bottom: 250px;
 }
 .navbar a {
   color: white;
   
 }
 
+
 .app {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
+  position: relative;
+}
+
+.content {
+  padding-bottom: 60px; /* Altura estimada del footer */
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: rgb(17, 17, 17);
   color: white;
   text-align: center;
@@ -51,19 +59,33 @@ body {
   animation: neon 1.5s infinite ease-in-out alternate;
   margin: 20px;
   width: 130px;
-  height: 60px;
+  height: 120px;
+  display: inline-block;
+  padding: 10px 20px;
+  
 }
 
+.color0{
+  border-top-left-radius: 100px;
+
+}
 .color {
   background-color: #d61515;
+  border-top-right-radius: 100px;
+  
+
 }
 
 .color2 {
   background-color: #0e5ae9;
+  border-bottom-left-radius: 100px;
+
 }
 
 .color3 {
   background-color: #bbb474;
+  border-bottom-right-radius: 100px;
+
 }
 
 @keyframes neon {
@@ -71,3 +93,13 @@ body {
     box-shadow: 0 0 15px #f8f6f6, 0 0 15px #0e0d0d, 0 0 15px #ffffff, 0 0 15px #ffffff;
   }
 }
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  text-align: center; 
+}
+  
+  .div1 { grid-area: 2 / 2 / 3 / 3; }

@@ -3,14 +3,18 @@ import React from 'react';
 
 const Ruleta = () => {
     return (
-        <div>
-        <div className="ruleta-buttons">
-          <button className="neon-button"></button>
-          <button className="neon-button color"></button>
-          <button className="neon-button color2"></button>
-          <button className="neon-button color3"></button>
-        </div>
+      <div className='container'>
+      <div class="parent">
+      <button class="neon-button color0"></button>
+      <button class="neon-button color"></button>
+      <button class="neon-button color2"></button>
+      <div class="div1">
+          <button class="neon-button color3"></button>
       </div>
+  </div>
+  </div>
+  
+      
     );
   };
 export default Ruleta;
