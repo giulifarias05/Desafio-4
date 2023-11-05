@@ -3,7 +3,11 @@ import React from 'react';
 
 const Ruleta = () => {
     return (
+      
       <div className='container'>
+        <div className='medio'>
+        <button class="juego">Jugar</button>
+        </div>
       <div class="parent">
       <button class="neon-button color0"></button>
       <button class="neon-button color"></button>

@@ -101,6 +101,7 @@ body {
 
 
 .parent {
+  margin-bottom: 100px;
   display: grid;
   grid-template-columns: repeat(2, auto);
   justify-content: center;
@@ -108,3 +109,28 @@ body {
 }
   
   .div1 { grid-area: 2 / 2 / 3 / 3; }
+
+.medio {
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.juego {
+  margin-bottom: 50px;
+  color: #eff0f5;
+  background-color: #2f0ee9;
+  border:#070707;
+  padding: 10px 20px;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-family:fantasy; 
+  box-shadow: 0 0 15px  #4c30ec, 0 0 15px  #563ceb, 0 0 15px  #2f0ee9, 0 0 15px  #2f0ee9;
+}
+  
+  
+  
+  
+  

@@ -14,7 +14,9 @@ function App() {
   const handleClose = () => setShowModal(false);
 
   return (
+    
       <div className="app">
+        
               <RegisterModal show={showModal} handleClose={handleClose} />
 
       <div className="content">
